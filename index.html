@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <styles ></style>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="box">
+        <div class="text">
+            <div >
+                <h1 id="hold">Generate a</h1>
+                <h1 id="random">random password</h1>
+                <h3>Never use an insecure password again.</h3>
+            </div>
+
+            <div class="btn">
+                <button id="g-btn" onclick="gen()">Generate passswords</button>
+                <hr>
+                
+                <div id="place">
+
+                    <div class="placeholders" id="placeholder" onclick="copyy()">
+                        **************
+                    </div>
+                    <i class="fa fa-clipboard fa-1x" id="copyicon" onclick="copyy()"></i>
+
+                    <div class="placeholders" id="placeholder2" onclick="copy1()">
+                        **************
+                    </div>
+                    <i class="fa fa-clipboard fa-1x" id="copyicon" onclick="copy1()"></i>
+                </div>
+                
+            </div>
+        </div>
+       
+        
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
